@@ -9,7 +9,7 @@ public interface FileDownloadOutputStream {
      * Writes <code>len</code> bytes from the specified byte array
      * starting at offset <code>off</code> to this file.
      */
-    void write(byte b[], int off, int len) throws IOException;
+    void write(byte[] b, int off, int len) throws IOException;
 
     /**
      * Flush all buffer to system and force all system buffers to synchronize with the underlying
